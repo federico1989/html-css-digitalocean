@@ -1,6 +1,12 @@
 body {
   padding-top: 50px;
 }
+/* utility */
+.pad-0-5 {
+  padding: 0 5px;
+}
+/* /utility */
+
 /* header */
 /* nav */
 nav {
@@ -33,7 +39,25 @@ nav {
    background-color: #f3f5f9;
  }
 
- /* .logo img {
+ .logo img {
      width: 100%;
      vertical-align: ;
- } */
+ }
+
+ .logo-row {
+   line-height: 123.23px;
+ }
+ /* /logo */
+ /* deploy */
+ .sec-deploy ul {
+    border-left: 1px solid grey;
+    padding-left: 10px;
+ }
+
+ .sec-deploy li {
+    line-height: 4.5rem;
+    list-style: none;
+    color: grey;
+    font-size: 2rem;
+ }
+  /* /deploy */
