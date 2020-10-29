@@ -1,7 +1,14 @@
 body {
   padding-top: 50px;
 }
-
+/* header */
+/* nav */
+nav {
+  margin-bottom: 0;
+  border: none;
+}
+/* /nav */
+/* jumbotron */
 .jumbotron {
   background-image: url('../img/bg-home-cta.svg');
   background-size: cover;
@@ -13,15 +20,20 @@ body {
 
 }
 
-nav {
-  margin-bottom: 0 !important;
-  border: none !important;
-}
 
  #logo-google {
    height: 18px;
  }
+ /* /jumbotron */
+ /* /header */
 
+ /* main */
+ /* logo */
  .logos {
    background-color: #f3f5f9;
  }
+
+ /* .logo img {
+     width: 100%;
+     vertical-align: ;
+ } */
