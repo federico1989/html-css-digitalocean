@@ -49,12 +49,12 @@ nav {
  }
  /* /logo */
  /* deploy */
- .sec-deploy ul {
+ #sec-deploy ul {
     border-left: 1px solid grey;
     padding-left: 10px;
  }
 
- .sec-deploy li {
+ #sec-deploy li {
     line-height: 4.5rem;
     list-style: none;
     color: grey;
