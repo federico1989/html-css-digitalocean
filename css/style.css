@@ -6,7 +6,10 @@ body {
   padding: 0 5px;
 }
 .py-10 {
-    padding: 10px 0;
+  padding: 10px 0;
+}
+.px-5 {
+  padding: 0 5px;
 }
 /* /utility */
 /* colors */
@@ -85,3 +88,13 @@ nav {
   /* /designed */
   /* features */
   /* /features */
+  /* data */
+  #data .border-bottom {
+    border-bottom: 1px solid white;
+  }
+  #data .strong {
+    font-weight: bold;
+  }
+  /* /data */
+  /* /main */
+  /* footer */
