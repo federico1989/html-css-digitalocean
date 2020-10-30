@@ -1,5 +1,6 @@
 body {
   padding-top: 50px;
+  font-family: 'Roboto', sans-serif;
 }
 /* utility */
 .pad-0-5 {
@@ -28,6 +29,10 @@ body {
 .bg-dark-blue {
     background-color: #031C4E;
 }
+
+.text-white {
+  color: white;
+}
 /* /colors */
 
 /* header */
@@ -46,9 +51,7 @@ nav {
 
 .card {
   background-color: white;
-
 }
-
 
  #logo-google {
    height: 18px;
@@ -98,3 +101,7 @@ nav {
   /* /data */
   /* /main */
   /* footer */
+  .site-footer h5 {
+    color:white;
+  }
+  /* /footer */
