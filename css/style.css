@@ -88,6 +88,9 @@ nav {
  }
   /* /deploy */
   /* designed */
+  .rocket-box {
+    border-radius: 5px;
+  }
   /* /designed */
   /* features */
   /* /features */
@@ -103,5 +106,8 @@ nav {
   /* footer */
   .site-footer h5 {
     color:white;
+  }
+  .site-footer .copy, .site-footer a {
+    color: #7a859d;
   }
   /* /footer */
