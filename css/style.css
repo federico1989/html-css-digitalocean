@@ -5,7 +5,27 @@ body {
 .pad-0-5 {
   padding: 0 5px;
 }
+.py-10 {
+    padding: 10px 0;
+}
 /* /utility */
+/* colors */
+.bg-white {
+  background-color: white;
+}
+.bg-grey {
+  background-color: #f3f5f9;
+}
+.bg-blue {
+    background-color: #031b4e;
+}
+.bg-electric-blue {
+    background-color: #0067ff;
+}
+.bg-dark-blue {
+    background-color: #031C4E;
+}
+/* /colors */
 
 /* header */
 /* nav */
@@ -49,12 +69,12 @@ nav {
  }
  /* /logo */
  /* deploy */
- #sec-deploy ul {
+ #deploy ul {
     border-left: 1px solid grey;
     padding-left: 10px;
  }
 
- #sec-deploy li {
+ #deploy li {
     line-height: 4.5rem;
     list-style: none;
     color: grey;
