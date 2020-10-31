@@ -44,6 +44,9 @@ body {
 .bg-blue-sky {
   background-color: #579aff;
 }
+.bg-light-blue {
+  background-color: #002daa;
+}
 
 .text-white {
   color: white;
@@ -56,6 +59,9 @@ body {
 }
 .text-dark-blue {
   color: #031C4E;
+}
+.text-light-grey{
+  color: #b2bde1;
 }
 /* /colors */
 
@@ -136,9 +142,10 @@ nav {
  #loghi h4 {
    text-transform: uppercase;
  }
-#loghi a {
+#loghi a, #features a {
   font-weight: 500;
   font-size: 15px;
+  color: #0067ff;
 }
  /* /loghi */
  /* deploy */
@@ -164,7 +171,7 @@ nav {
   #designed .col-md-3 {
     top: 161.5px;
   }
-  #designed [class*="circle"] {
+  #designed [class*="circle"], #development [class*="circle"] {
     font-size: 15px;
     color: #579aff;
   }
@@ -177,6 +184,16 @@ nav {
   }
   #data .strong {
     font-weight: bold;
+  }
+  #data .row {
+    margin: 0 5px;
+  }
+  #data .col-xs-7 {
+
+  }
+  #data a {
+    color: #00c3cc;
+
   }
   /* /data */
   /* /main */
