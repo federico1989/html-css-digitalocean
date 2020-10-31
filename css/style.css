@@ -29,9 +29,15 @@ body {
 .bg-dark-blue {
     background-color: #031C4E;
 }
+.bg-blue-sky {
+  background-color: #579aff;
+}
 
 .text-white {
   color: white;
+}
+.text-electric-blue {
+  color: #0067ff;
 }
 /* /colors */
 
@@ -41,6 +47,25 @@ nav {
   margin-bottom: 0;
   border: none;
 }
+.navbar-default .navbar-nav> li> a {
+  color: #031b4e;
+  font-weight: 500;
+}
+.navbar-default .navbar-nav> li> a> i {
+  margin-left: 5px;
+}
+.navbar-default .navbar-nav> li> .btn {
+  color: #0067ff;
+  border-color: #0067ff;
+  height: 30px;
+  padding: 5px;
+  margin-top: 10px;
+}
+.navbar-default .navbar-nav> li> .btn:hover {
+  color: white;
+  border-color: #0067ff;
+  background-color: #0067ff;
+}
 /* /nav */
 /* jumbotron */
 .jumbotron {
@@ -48,14 +73,32 @@ nav {
   background-size: cover;
   margin-bottom: 0;
 }
-
 .card {
+  height: 400px;
+  padding: 5px;
   background-color: white;
+}
+.btn span {
+  color: #7a859d;
+}
+.form-control, .card .btn {
+  width: 95%;
+  margin: 10px;
+  padding: 5px;
+}
+.btn-primary{
+  background-color: #579aff;
+  border-color: #579aff;
+}
+.btn-primary:hover {
+  background-color: #006aff;
 }
 
  #logo-google {
    height: 18px;
+   text-align: left;
  }
+
  /* /jumbotron */
  /* /header */
 
@@ -111,3 +154,10 @@ nav {
     color: #7a859d;
   }
   /* /footer */
+
+  /* MEDIA */
+  @media (min-width: 768px) {
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+    margin: 0 95px;
+  }
+}
