@@ -12,6 +12,18 @@ body {
 .px-5 {
   padding: 0 5px;
 }
+.mt-50 {
+  margin-top: 50px;
+}
+.mt-80 {
+  margin-top: 80px;
+}
+.mb-30 {
+  margin-bottom: 30px;
+}
+.mb-50 {
+  margin-bottom: 50px;
+}
 /* /utility */
 /* colors */
 .bg-white {
@@ -38,6 +50,12 @@ body {
 }
 .text-electric-blue {
   color: #0067ff;
+}
+.text-grey {
+  color: grey;
+}
+.text-dark-blue {
+  color: #031C4E;
 }
 /* /colors */
 
@@ -96,14 +114,13 @@ nav {
 
  #logo-google {
    height: 18px;
-   text-align: left;
  }
 
  /* /jumbotron */
  /* /header */
 
  /* main */
- /* logo */
+ /* loghi */
  .logos {
    background-color: #f3f5f9;
  }
@@ -116,7 +133,14 @@ nav {
  .logo-row {
    line-height: 123.23px;
  }
- /* /logo */
+ #loghi h4 {
+   text-transform: uppercase;
+ }
+#loghi a {
+  font-weight: 500;
+  font-size: 15px;
+}
+ /* /loghi */
  /* deploy */
  #deploy ul {
     border-left: 1px solid grey;
@@ -133,6 +157,16 @@ nav {
   /* designed */
   .rocket-box {
     border-radius: 5px;
+  }
+  #designed [class*="chevron"] {
+    font-size: 40px;
+  }
+  #designed .col-md-3 {
+    top: 161.5px;
+  }
+  #designed [class*="circle"] {
+    font-size: 15px;
+    color: #579aff;
   }
   /* /designed */
   /* features */
