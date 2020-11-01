@@ -123,6 +123,8 @@ nav {
 
 #logo-google {
  height: 18px;
+ margin-left: 5px;
+ float: left;
 }
 
 /* /jumbotron */
@@ -165,12 +167,18 @@ nav {
 }
 /* /deploy */
 /* designed */
+#designed img {
+   width: 100%;
+}
 .big-chevron {
   font-size: 40px;
   color: #031C4E
 }
+.big-chevron i {
+  width: 100%;
+}
 #designed .big-chevron {
-  top: 161.5px;
+  top: 162.5px;
 }
 #designed [class*="circle"], #development [class*="circle"] {
   font-size: 15px;
@@ -204,23 +212,39 @@ nav {
 #development .big-chevron {
   top: 200px;
 }
+#development img {
+  width: 100%;
+}
 /* /development */
 /* started */
 /* /started */
 /* /main */
 
 /* footer */
+.site-footer img{
+  padding: 10px 0;
+}
 .site-footer h5 {
+  font-size: 20px;
   color:white;
 }
 .site-footer .copy, .site-footer a {
   color: #7a859d;
 }
+.site-footer ul {
+  font-weight: 900;
+  line-height: 30px;
+}
 /* /footer */
 
 /* MEDIA */
-@media (min-width: 768px) {
+@media (min-width: 1100px) {
 .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
     margin: 0 95px;
+  }
+}
+@media (max-width: 768px) {
+  .big-chevron {
+    display: none;
   }
 }
