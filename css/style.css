@@ -213,7 +213,7 @@ nav {
   top: 200px;
 }
 #development img {
-  width: 100%;
+  width: 60%;
 }
 /* /development */
 /* started */
@@ -266,7 +266,7 @@ footer {
   }
 }
 
-@media
+
 @media (max-width: 768px) {
   .big-chevron {
     display: none;
