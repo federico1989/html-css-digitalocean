@@ -12,6 +12,9 @@ body {
 .px-5 {
   padding: 0 5px;
 }
+.mt-30 {
+  margin-top: 30px;
+}
 .mt-50 {
   margin-top: 50px;
 }
@@ -118,96 +121,104 @@ nav {
   background-color: #006aff;
 }
 
- #logo-google {
-   height: 18px;
- }
+#logo-google {
+ height: 18px;
+}
 
- /* /jumbotron */
- /* /header */
+/* /jumbotron */
+/* /header */
 
- /* main */
- /* loghi */
- .logos {
-   background-color: #f3f5f9;
- }
+/* main */
+/* loghi */
+.logos {
+ background-color: #f3f5f9;
+}
 
- .logo img {
-     width: 100%;
-     vertical-align: ;
- }
+.logo img {
+   width: 100%;
+   vertical-align: ;
+}
 
- .logo-row {
-   line-height: 123.23px;
- }
- #loghi h4 {
-   text-transform: uppercase;
- }
-#loghi a, #features a {
+.logo-row {
+  line-height: 123.23px;
+}
+#loghi h4 {
+  text-transform: uppercase;
+}
+#loghi a, #features a, #development a {
   font-weight: 500;
   font-size: 15px;
   color: #0067ff;
 }
- /* /loghi */
- /* deploy */
- #deploy ul {
-    border-left: 1px solid grey;
-    padding-left: 10px;
- }
+/* /loghi */
+/* deploy */
+#deploy ul {
+  border-left: 1px solid grey;
+  padding-left: 10px;
+}
 
- #deploy li {
-    line-height: 4.5rem;
-    list-style: none;
-    color: grey;
-    font-size: 2rem;
- }
-  /* /deploy */
-  /* designed */
-  .rocket-box {
-    border-radius: 5px;
-  }
-  #designed [class*="chevron"] {
-    font-size: 40px;
-  }
-  #designed .col-md-3 {
-    top: 161.5px;
-  }
-  #designed [class*="circle"], #development [class*="circle"] {
-    font-size: 15px;
-    color: #579aff;
-  }
-  /* /designed */
-  /* features */
-  /* /features */
-  /* data */
-  #data .border-bottom {
-    border-bottom: 1px solid white;
-  }
-  #data .strong {
-    font-weight: bold;
-  }
-  #data .row {
-    margin: 0 5px;
-  }
-  #data .col-xs-7 {
+#deploy li {
+  line-height: 4.5rem;
+  list-style: none;
+  color: grey;
+  font-size: 2rem;
+}
+/* /deploy */
+/* designed */
+.big-chevron {
+  font-size: 40px;
+  color: #031C4E
+}
+#designed .big-chevron {
+  top: 161.5px;
+}
+#designed [class*="circle"], #development [class*="circle"] {
+  font-size: 15px;
+  color: #579aff;
+}
+/* /designed */
+/* features */
+/* /features */
+/* data */
+#data .border-bottom {
+  border-bottom: 1px solid white;
+}
+#data .strong {
+  font-weight: bold;
+}
+#data .row {
+  margin: 0 5px;
+}
+#data .col-xs-7 {
 
-  }
-  #data a {
-    color: #00c3cc;
+}
+#data a {
+  color: #00c3cc;
+}
+/* /data */
+/* development */
+.rocket-box {
+  height: 400px;
+  border-radius: 5px;
+}
+#development .big-chevron {
+  top: 200px;
+}
+/* /development */
+/* started */
+/* /started */
+/* /main */
+/* footer */
+.site-footer h5 {
+  color:white;
+}
+.site-footer .copy, .site-footer a {
+  color: #7a859d;
+}
+/* /footer */
 
-  }
-  /* /data */
-  /* /main */
-  /* footer */
-  .site-footer h5 {
-    color:white;
-  }
-  .site-footer .copy, .site-footer a {
-    color: #7a859d;
-  }
-  /* /footer */
-
-  /* MEDIA */
-  @media (min-width: 768px) {
+/* MEDIA */
+@media (min-width: 768px) {
 .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
     margin: 0 95px;
   }
