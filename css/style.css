@@ -167,6 +167,9 @@ nav {
 }
 /* /deploy */
 /* designed */
+.droplet-box {
+  width: 100%;
+}
 #designed img {
    width: 100%;
 }
@@ -205,16 +208,17 @@ nav {
 }
 /* /data */
 /* development */
-.rocket-box {
+.rocket-box, {
   height: 400px;
   border-radius: 5px;
 }
 #development .big-chevron {
-  top: 200px;
+  top: 150px;
 }
 #development img {
   width: 60%;
 }
+
 /* /development */
 /* started */
 /* /started */
@@ -265,7 +269,15 @@ footer {
     margin: 0 95px;
   }
 }
-
+@media (max-width: 990px) {
+.logo img {
+  width: 50%;
+  }
+}
+@media (max-width: 817px) {
+  .nav>li>a {
+    padding: 10px 11px;
+}
 @media (max-width: 768px) {
   .big-chevron {
     display: none;
